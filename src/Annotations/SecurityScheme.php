@@ -74,7 +74,7 @@ class SecurityScheme extends AbstractAnnotation
         'type' => ['basic', 'apiKey', 'oauth2'],
         'description' => 'string',
         'name' => 'string',
-        'in' => ['query', 'header', 'cookie'],
+        'in' => ['query', 'header'],
         'flow' => ['implicit', 'password', 'application', 'accessCode']
     ];
 
